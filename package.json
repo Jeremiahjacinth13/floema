@@ -1,0 +1,36 @@
+{
+  "name": "floema",
+  "version": "1.0.0",
+  "description": "Intro to designing immersive webpages",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run development",
+    "build": "webpack --progress --config webpack.config.build.js",
+    "development": "webpack serve --progress --config webpack.config.development.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeremiahjacinth13/floema.git"
+  },
+  "keywords": [
+    "immersive",
+    "web",
+    "design"
+  ],
+  "author": "Jeremiah Lena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeremiahjacinth13/floema/issues"
+  },
+  "homepage": "https://github.com/Jeremiahjacinth13/floema#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.2",
+    "mini-css-extract-plugin": "^2.5.3",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {}
+}
